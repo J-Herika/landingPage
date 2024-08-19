@@ -113,8 +113,10 @@ main {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
-h4,#callto-section p{
+h4,
+#callto-section p {
   margin: 0;
   padding: 0;
 }
@@ -127,5 +129,12 @@ h4,#callto-section p{
   padding: 0 30px;
   border-radius: 7px;
   border: 1px solid whitesmoke;
+}
 
+/* FOOTER */
+footer{
+  padding: 20px 0;
+  text-align: center;
+  color: #e5e7eb;
+  background-color: #1f2937;
 }
