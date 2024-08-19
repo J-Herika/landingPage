@@ -9,7 +9,7 @@ body {
   color: whitesmoke;
   padding: 0 180px;
 }
-h1{
+h1 {
   font-size: 48px;
   font-weight: 900;
 }
@@ -45,7 +45,7 @@ header {
   height: 250px;
 }
 
-button {
+#signup-btn {
   padding: 10px 50px;
   border-radius: 7px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -56,7 +56,7 @@ button {
 main {
   padding-top: 60px;
   text-align: center;
-  padding: 0 180px;
+  padding: 60px 180px;
 }
 
 #info-section {
@@ -66,7 +66,7 @@ main {
   justify-content: center;
 }
 
-.info-content{
+.info-content {
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -78,26 +78,54 @@ main {
   border-radius: 10px;
   border: 2px solid blueviolet;
 }
-.info-txt{
-
+.info-txt {
 }
-
 
 /* QUOTE SECTION */
 
-#quote-section{
+#quote-section {
   background-color: #e5e7eb;
   padding: 60px 200px;
 }
-#quote{
+#quote {
   margin: 0;
   font-size: 36px;
   font-style: italic;
   font-weight: 400;
 }
-#quote-author{
+#quote-author {
   margin: 0;
   font-size: 24px;
   margin-left: 900px;
   font-weight: bolder;
+}
+
+/* Call to action */
+
+#callto-section {
+  padding: 60px 280px;
+}
+
+#callto-content {
+  color: whitesmoke;
+  background-color: #3882f6;
+  padding: 40px 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+h4,#callto-section p{
+  margin: 0;
+  padding: 0;
+}
+
+#callto-btn {
+  background-color: #3882f6;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  padding: 0 30px;
+  border-radius: 7px;
+  border: 1px solid whitesmoke;
+
 }
