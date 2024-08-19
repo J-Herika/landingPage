@@ -9,6 +9,10 @@ body {
   color: whitesmoke;
   padding: 0 180px;
 }
+h1{
+  font-size: 48px;
+  font-weight: 900;
+}
 nav {
   display: flex;
   align-items: center;
@@ -32,7 +36,7 @@ header {
 
 #hero-txt {
   flex-grow: 0;
-  width: 400px;
+  width: 450px;
 }
 
 #hero-img-div {
@@ -41,9 +45,59 @@ header {
   height: 250px;
 }
 
-button{
+button {
   padding: 10px 50px;
   border-radius: 7px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+}
+
+/* Main content */
+main {
+  padding-top: 60px;
+  text-align: center;
+  padding: 0 180px;
+}
+
+#info-section {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.info-content{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+}
+.info-txt{
+
+}
+
+
+/* QUOTE SECTION */
+
+#quote-section{
+  background-color: #e5e7eb;
+  padding: 60px 200px;
+}
+#quote{
+  margin: 0;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+}
+#quote-author{
+  margin: 0;
+  font-size: 24px;
+  margin-left: 900px;
+  font-weight: bolder;
 }
